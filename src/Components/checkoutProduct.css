@@ -1,0 +1,36 @@
+.kartItem{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(248, 245, 245);
+    padding: 10px;
+    margin: 10px;
+}
+
+.kartItem__image{
+    width: 40%;
+    margin: 2px;
+}
+.kartItem__image > img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.kartItem__info{
+    width: 60%;
+    margin: 10px;
+
+}
+.kartItem__price{
+    margin-top: 5px;
+}
+.kartItem__rating{
+    display: flex;
+}
+.kartItem__info > button{
+    background: #f0c149;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: black;
+}
